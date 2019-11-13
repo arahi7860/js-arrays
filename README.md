@@ -102,9 +102,8 @@ If you query a non-existent array index, you get `undefined`:
 
 ```javascript
 let a = ['dog', 'cat', 'hen'];
-=> undefined
 
-typeof a[90];
+a[90];
 => undefined
 ```
 
@@ -124,6 +123,6 @@ Arrays come with a number of methods. Here's a list of some popular helpers:
 
 - `a.shift()` - Removes and returns the first item.
 
-- `a.unshift([item])` - Prepends items to the start of the array.
+- `a.unshift(item)` - Prepends items to the start of the array.
 
 Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for particular objects.
