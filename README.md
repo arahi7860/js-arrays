@@ -111,8 +111,6 @@ a[90];
 
 Arrays come with a number of methods. Here's a list of some popular helpers:
 
-> Note: You might want to demonstrate a few of these.
-
 - `a.toString()` - Returns a string with the `toString()` of each element separated by commas.
 
 - `a.pop()` - Removes and returns the last item.
